@@ -1,0 +1,449 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+
+<title>Books - বই | SUJOY - সুজয়</title>
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="author" content="সুজয় - SUJOY">
+<meta name="description" content="Books - বই | There is more treasure in books than in all the pirate's loot on Treasure Island. | SUJOY, an Indian - সুজয় , একজন ভারতীয় বাঙালি । sujoy.me ">
+<meta name="keywords" content="Books - বই | There is more treasure in books than in all the pirate's loot on Treasure Island. | SUJOY, an Indian - সুজয় , একজন ভারতীয় বাঙালি । sujoy.me">
+<link rel="shortcut icon" type="image/ico" href="https://sujoy.me/favicon.ico">
+<link rel="icon" type="image/ico" href="https://books.sujoy.me/favicon.ico">
+
+<link rel="canonical" href="https://books.sujoy.me">
+
+<link rel="apple-touch-icon" href="https://sujoy.me/images/Sujoy-is-reading.jpg">
+<meta name="msapplication" content="https://sujoy.me/images/Sujoy-is-reading.jpg">
+<link rel="apple-touch-icon-precomposed" href="https://sujoy.me/images/Sujoy-is-reading.jpg">
+<link rel="icon" sizes="192x192" href="https://books.sujoy.me/favicon.ico">
+<link rel="mask-icon" href="https://sujoy.me/images/Sujoy-is-reading.jpg" color="#00d4ff">
+
+<meta property="og:url" content="https://books.sujoy.me">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Books - বই | সুজয় - SUJOY">
+<meta property="og:description" content="Books - বই | There is more treasure in books than in all the pirate's loot on Treasure Island. | SUJOY, an Indian - সুজয় , একজন ভারতীয় বাঙালি । sujoy.me" />
+<meta property="og:image" content="https://sujoy.me/images/Sujoy-is-reading.jpg" />
+<meta property="fb:app_id" content="2119604115129693" />
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="sujoy.me">
+
+<meta property="twitter:url" content="https://books.sujoy.me">
+
+<meta name="twitter:title" content="Books - বই | সুজয় - SUJOY">
+<meta name="twitter:description" content="Books - বই | There is more treasure in books than in all the pirate's loot on Treasure Island. | SUJOY, an Indian - সুজয় , একজন ভারতীয় বাঙালি । sujoy.me">
+<meta name="twitter:image" content="https://sujoy.me/images/Sujoy-is-reading.jpg">
+<meta name="theme-color" content="#00d4ff">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  * {
+    font-family: "Comic Relief", system-ui;
+  }
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+/*  height: 100vh;*/
+  color: #fff;
+
+  padding: 0;
+
+/* header, main, footer */
+  /*grid-template-rows: auto 1fr auto; 
+  display: grid;*/
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 50px 10px;  /* Adjust top/bottom spacing as needed */
+  box-sizing: border-box;
+}
+
+.container{
+  width:200px;
+  height: 200px;
+  display: grid;
+  grid-template-rows:1fr 1fr;
+  grid-template-columns:1fr 1fr;
+  gap:10px;
+}
+
+.item{
+  width:100px;
+  height: 100px;
+  background-color: #000;
+  border:2px solid red;
+  box-sizing:border-box;
+  border-radius:40px;
+  cursor:pointer;
+  color: #fff;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  position: relative;  
+  z-index: 1; 
+}
+/* .item:hover{
+  background-color: #fff;
+} */
+.item::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  border-radius: 35px;
+  z-index: -1;
+  box-shadow: 0 0 10px 5px currentColor;
+}
+
+.item:nth-child(1),.item:nth-child(1)::after{
+  border-bottom-right-radius:0;
+  border-top-left-radius:0;
+  border: 1px solid #06f88b;
+  color: #06f88b;
+}
+
+.item:nth-child(2),.item:nth-child(2)::after {
+  border-bottom-left-radius:0;
+  border-top-right-radius:0;
+  border:1px solid #00fcff;
+  color: #00fcff;
+}
+
+.item:nth-child(3),.item:nth-child(3)::after{
+  border-top-right-radius:0;
+  border-bottom-left-radius:0;
+  border:1px solid #6500ff;
+  color: #6500ff;
+}
+
+.item:nth-child(4),.item:nth-child(4)::after{
+  border-top-left-radius:0;
+  border-bottom-right-radius:0;
+  border:1px solid #ff00b9;
+  color: #ff00b9;
+}
+
+.item:hover{
+  transform: scale(1.02);
+  transition: transform 0.6s ease;
+}
+
+.item:nth-child(1):hover::after { 
+  box-shadow: 0 0 20px 5px #06f88b; 
+  transition: box-shadow 0.3s ease;
+}
+.item:nth-child(2):hover::after { 
+  box-shadow: 0 0 20px 5px #00fcff; 
+  transition: box-shadow 0.3s ease;
+}
+.item:nth-child(3):hover::after { 
+  box-shadow: 0 0 20px 5px #6500ff; 
+  transition: box-shadow 0.3s ease;
+}
+.item:nth-child(4):hover::after { 
+  box-shadow: 0 0 20px 5px #ff00b9; 
+  transition: box-shadow 0.3s ease;
+}
+.item:hover {
+  text-shadow: 0 0 8px currentColor;
+}
+.item::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: currentColor;
+  opacity: 0;
+  filter: blur(25px);
+  transition: opacity 0.4s ease;
+  z-index: 0;
+}
+
+.item:hover::before {
+  opacity: 0.2;
+}
+.item a {
+  color: inherit;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  pointer-events: auto;
+  z-index: 2;
+  position: relative;
+}
+
+.item::before,
+.item::after {
+  pointer-events: none;
+}
+
+
+
+.navbar {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      right: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+      color: white;
+/*      position: sticky;  eta dilei nav middle e chole ase  */
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #00fcff;
+      text-shadow: 0 0 10px #00fcff;
+      cursor: pointer;
+    }
+
+    .hamburger {
+      width: 30px;
+      height: 25px;
+      position: relative;
+      cursor: pointer;
+      z-index: 1001;
+      filter: drop-shadow(0 0 5px #00fcff);
+    }
+
+    .hamburger.active span {
+  box-shadow: 0 0 1.5px #00fcff, 0 0 3px #00fcff;
+}
+
+    .hamburger span {
+      display: block;
+      height: 4px;
+      background: #00fcff; /* match your neon color */
+      margin: 5px 0;
+      border-radius: 2px;
+      transition: 0.4s;
+      box-shadow: 0 0 1px #00fcff, 0 0 2px #00fcff;
+    }
+
+    .menu {
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background: rgba(0, 0, 0, 0.95);
+      border: 1px solid #444;
+      padding: 10px 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 20px #00fcff;
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 1000;
+    }
+
+/*    .menu.show {
+      display: flex;
+    }
+*/
+    .menu a {
+      color: #00fcff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .menu a:hover {
+      text-shadow: 0 0 8px #00fcff;
+    }
+
+    .dropdown {
+      position: relative;
+    }
+
+/*    .dropdown-content {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      padding-top: 5px;
+    }*/
+
+    .dropdown-content {
+  display: none;
+  flex-direction: column;
+  background-color: #111;
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 5px;
+  box-shadow: 0 0 10px #00fcff33;
+}
+
+    .dropdown:hover .dropdown-content {
+      display: flex;
+    }
+
+    /* Optional: hamburger active animation */
+    
+    .hamburger.active span:nth-child(1) {
+      transform: rotate(45deg) translateY(8px);
+    }
+
+    .hamburger.active span:nth-child(2) {
+      opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(3) {
+      transform: rotate(-45deg) translateY(-8px);
+    }
+
+/*footer style*/
+.footer {
+  margin-top: 20px;
+  padding: 20px 0 10px;
+  background-color: #000;
+  color: #00fcff;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  border-top: 1px solid #333;
+  box-shadow: 0 -2px 10px rgba(0, 252, 255, 0.2);
+}
+
+.social-icons {
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  color: #00fcff;
+  margin: 0 10px;
+  font-size: 20px;
+  transition: 0.3s ease;
+  text-shadow: 0 0 5px #00fcff;
+}
+
+.social-icons a:hover {
+  color: #fff;
+  text-shadow: 0 0 4px #00fcff, 0 0 6px #00fcff;
+  transform: scale(1.1);
+}
+
+.footer .copyright {
+  font-size: 14px;
+  opacity: 0.7;
+  font-weight: bold;
+  font-family: courier new; 
+  color: yellow;
+}
+
+</style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+<body>
+
+  <div class="page-wrapper">
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo" title="SUJOY">SUJOY.me</div>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="menu" id="menu">
+      <a href="https://sujoy.me">HomePage</a>
+      <div class="dropdown">
+        <a href="javascript:void(0)">Books &#128218;  ▾</a>
+        <div class="dropdown-content" id="dropdown-content">
+          <a href="https://sujoy.me/books/reviews">book reviews</a>
+          <a href="https://sujoy.me/books/genre">genre deep dives</a>
+          <a href="https://sujoy.me/books/gallery">books gallery</a>
+        </div>
+      </div>
+      <a href="https://sujoy.me/blog">blog</a>
+      <a href="https://sujoy.me/tools">tools</a>
+      <a href="https://sujoy.me/contact">contact</a>
+    </div>
+  </header>
+
+
+<!-- MAIN CONTENT -->
+<main class="main">
+
+<div class="container">
+<div class="item">
+<a href="https://sujoy.me/books/genre" title="Genre Deep Dives">Books <br> Genre</a>
+</div>
+<div class="item"></div>
+<div class="item">
+<a href="https://sujoy.me/books/gallery" title="Books Gallery">Books <br> Gallery</a>
+</div>
+<div class="item">
+<a href="https://sujoy.me/books/reviews" title="Book Reviews">Book <br> Reviews</a>
+</div>
+
+</div>
+</main>
+
+<!-- footer -->
+
+<footer class="footer">
+  <div class="social-icons">
+    <a href="https://facebook.com/theSujoySarkar"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://instagram.com/theSujoySarkar"><i class="fab fa-instagram"></i></a>
+    <a href="https://x.com/theSujoySarkar"><i class="fab fa-twitter"></i></a>
+    <a href="https://threads.com/@theSujoySarkar"><i class="fab fa-threads"></i></a>
+    <a href="https://bsky.app/profile/sujoy.me"><i class="fa-brands fa-bluesky"></i></a>
+    <a href="https://mastodon.social/@thesujoysarkar"><i class="fab fa-mastodon"></i></a>
+
+  </div>
+  <div class="copyright">
+    &copy; Sujoy.me <script type="text/javascript">document.write(new Date().getFullYear());</script>
+  </div>
+</footer>
+
+
+</body>
+  <!-- JS for hamburger toggle -->
+  <script>
+    const hamburger = document.getElementById("hamburger");
+    const menu = document.getElementById("menu");
+
+    hamburger.addEventListener("click", () => {
+      hamburger.classList.toggle("active");
+      menu.style.display = menu.style.display === "flex" ? "none" : "flex";
+    });
+  </script>
+
+
+</html>

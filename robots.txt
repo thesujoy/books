@@ -1,0 +1,11 @@
+# Allow Facebook's crawler
+User-agent: facebookexternalhit
+Disallow:
+
+# Disallow Internet Archive crawler
+User-agent: ia_archiver
+Disallow: /
+
+# Allow all other crawlers
+User-agent: *
+Disallow:

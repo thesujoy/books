@@ -1,0 +1,11 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+#Custom Error Documents
+ErrorDocument 400	https://books.sujoy.me
+ErrorDocument 401	https://books.sujoy.me
+ErrorDocument 403	https://books.sujoy.me
+ErrorDocument 404	https://books.sujoy.me
+ErrorDocument 500	https://books.sujoy.me
